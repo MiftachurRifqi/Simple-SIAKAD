@@ -1,6 +1,6 @@
----------------------------------------------------------------------------------------
-SIMPLE SIAKAD
+# SIMPLE SIAKAD #
 Oleh Moch. Miftachur Rifqi Al Husain / 210411100125
+---------------------------------------------------------------------------------------
 
 Dibuat untuk memenuhi tugas Final Project Mata Kuliah Pengembangan Aplikasi Web (PAW)
 yang diampu oleh Bapak Ach. Khozaimi S.Kom., M.Kom.
