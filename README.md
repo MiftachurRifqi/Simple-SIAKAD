@@ -28,6 +28,4 @@ Selesai 05-12-2022.
 >> Username: Rifqi
 >> Password: rifqi123
 
-
-Nb: Data Password pada Tabel user pada Database terenkripsi menggunakan bycript.
 ---------------------------------------------------------------------------------------
