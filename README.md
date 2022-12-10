@@ -16,17 +16,17 @@ Selesai 05-12-2022.
 
 >> Untuk melakukan Login menggunakan:
 
--> Level: Admin
--> Username: Admin
--> Password: admin123
+>> Level: Admin
+>> Username: Admin
+>> Password: admin123
 
--> Level: Dosen
--> Username: Husain
--> Password: husain123
+>> Level: Dosen
+>> Username: Husain
+>> Password: husain123
 
--> Level: Mahasiswa
--> Username: Rifqi
--> Password: rifqi123
+>> Level: Mahasiswa
+>> Username: Rifqi
+>> Password: rifqi123
 
 
 Nb: Data Password pada Tabel user pada Database terenkripsi menggunakan bycript.
