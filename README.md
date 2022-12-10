@@ -1,4 +1,4 @@
-# SIMPLE SIAKAD #
+# SIMPLE SIAKAD
 Oleh Moch. Miftachur Rifqi Al Husain / 210411100125
 ---------------------------------------------------------------------------------------
 
