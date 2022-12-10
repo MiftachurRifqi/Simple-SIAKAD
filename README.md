@@ -10,6 +10,7 @@ Mulai 22-11-2022.
 Selesai 05-12-2022.
 
 -Interface menggunakan  Bootsrap (AdminLTE3-Master).
+
 -Kerangka code menggunakan Konsep MVC dari Laravel 8.
 
 >> Untuk mengakses Web menggunakan route localhost:8000/login 
