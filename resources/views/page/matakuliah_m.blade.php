@@ -113,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       })
       .then((willDelete) => {
         if (willDelete) {
-          window.location = "{{route ('delete_matakuliah',$item->id)}}"
+          window.location = "{{route ('delete_matakuliah_m',$item->id)}}"
           swal("Data Berhasil Dihapus!", {
             icon: "success",
           });

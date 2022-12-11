@@ -21,40 +21,6 @@ class BerandaController extends Controller
         return view('template.contactme');
     }
 
-    // public function data_dosen(){
-    //     return view('page.data_mahasiswa');
-    // }
-
- 
-    // // ------------interface Dosen------------
-    // public function matakuliah(){
-    //     return view('page.matakuliah');
-    // }
-    
-    // public function nilai(){
-    //     return view('page.nilai');
-    // }
-
-    // public function jadwal(){
-    //     return view('page.jadwal');
-    // }
-
-    // // -------interface khusus mahasiswa---------
-    // public function matakuliah_m(){
-    //     return view('page.matakuliah_m');
-    // }
-
-    // public function nilai_m(){
-    //     return view('page.nilai_m');
-    // }
-
-    // public function jadwal_m(){
-    //     return view('page.jadwal_m');
-    // }
-
-
-
-
     /**
      * Show the form for creating a new resource.
      *

@@ -14,9 +14,9 @@ class CekLevel
      * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
      * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
      */
-    public function handle(Request $request, Closure $next, ...$levels)
+    public function handle(Request $request, Closure $next, ...$lvl)
     {
-        if (in_array($request->user()->level,$levels)){
+        if (in_array($request->user()->level,$lvl)){
             return $next($request);
         }
         return redirect('/login');

@@ -27,7 +27,7 @@
   </div>
   @endif --}}
   <div class="login-logo">
-    <a href="#">SIMPLE <b>SIAKAD</b> </a>
+    <a href="#">Simple <b>SIAKAD</b> </a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
