@@ -67,7 +67,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <td>{{$item->ruang}}</td>
                   <td>{{$item->kelas}}</td>
                   <td>
-                    <a href="#" class="delete"><i class="fa-regular fas fa-trash-alt" style="color:red;"></i></a>
+                    <a href="#" class="delete" data-id="{{$item->id}}" data-nama="{{$item->nama_mk}}" data-kode="{{$item->kode_mk}}"><i class="fa-regular fas fa-trash-alt" style="color:red;"></i></a>
                   </td>
                 </tr>
 
@@ -99,21 +99,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 @include('template.script')
 @include('sweetalert::alert')
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 <script>
   $('.delete').click(function(){
+    var mkid = $(this).attr('data-id');
+    var nama = $(this).attr('data-nama');
+    var kode = $(this).attr('data-kode');
+
     swal({
       title: "Yakin?",
-      text: "Anda akan menghapus data ini!",
+      text: "Anda akan menghapus '"+kode+" | "+nama+"'!",
       icon: "warning",
       buttons: true,
       dangerMode: true,
       })
       .then((willDelete) => {
         if (willDelete) {
-          window.location = "{{route ('delete_matakuliah_m',$item->id)}}"
+          window.location = "/delete_matakuliah_m/"+mkid+""
           swal("Data Berhasil Dihapus!", {
             icon: "success",
           });
@@ -123,5 +128,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
       });
 
   });
+  
 </script>
 </html>
