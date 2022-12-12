@@ -32,7 +32,6 @@
                 <th>Nama</th>
                 <th>Alamat</th>
                 <th>Email</th>
-                <th>Aksi</th>
             </tr>
             @foreach ($dtctkdsn as $item)
             <tr>

@@ -34,7 +34,6 @@
                 <th>Prodi</th>
                 <th>Alamat</th>
                 <th>Email</th>
-                <th>Aksi</th>
             </tr>
             @foreach ($dtctkmhs as $item)
             <tr>
