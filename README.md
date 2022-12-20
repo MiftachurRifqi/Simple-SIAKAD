@@ -7,7 +7,7 @@ yang diampu oleh Bapak Ach. Khozaimi S.Kom., M.Kom.
 
 Proses pengerjaan pertanggal
 Mulai 22-11-2022.
-Selesai 05-12-2022.
+Selesai 07-12-2022.
 
 -Interface menggunakan  Bootsrap (AdminLTE3-Master).
 
